@@ -1,0 +1,12 @@
+{
+  "name": "CybozuSchedule",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Cybozuのユーザアカウントをクリックした際、プロフィールではなくスケジュールを開くようにするextentionです。",
+  "content_scripts": [{
+    "matches": ["https://weddingpark.cybozu.com/users/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
